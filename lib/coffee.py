@@ -3,7 +3,7 @@
 class Coffee:
     def __init__(self, size, price):
         self.size = size
-        self.price
+        self.price = price
 
     @property
     def size(self):
@@ -17,5 +17,5 @@ class Coffee:
             print("size must be Small, Medium, or Large")
 
     def tip(self):
-        print("Here's a tip the coffee was amazing!")
+        print("This coffee is great, here’s a tip!")
         self.price += 1
